@@ -1,0 +1,70 @@
+*{
+    margin:0;
+}
+
+.nav{
+    background-color: rgb(218, 217, 216);
+    display: flex;
+    justify-content: space-between;
+   
+  
+
+}
+    
+
+ul li{
+    display: inline-flex;
+    margin: 5px 10px 5px 5px;
+    padding:5px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+}
+.title{
+    margin: 5px 5px 5px 10px;
+    padding:5px ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+}
+
+.container{
+    background-image:url("./assets/tempprac1/hamburger.jpg") ;
+    width: 100%;
+    height: 90vh;
+    position: relative;
+}
+.position{
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.cont{
+    display: flex;
+    justify-content: space-between;
+    margin:0px auto;
+    width: 70%;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    padding: 10px;
+
+}
+h2{
+    margin:40px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+.contact{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   max-width: 60%;
+   align-items: center;
+}
